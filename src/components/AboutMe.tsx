@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import me from "../assets/img/me.webp";
+import me from "../assets/img/Adossi.svg";
 import { aboutMeData } from "../assets/lib/data";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,7 +32,7 @@ const AboutMe: React.FC = () => {
     }
   };
   const paragraphs =
-    language === "DE" ? aboutMeData.paragraphs_DE : aboutMeData.paragraphs_EN;
+    language === "FR" ? aboutMeData.paragraphs_FR : aboutMeData.paragraphs_EN;
 
   return (
     <React.Fragment>
@@ -48,12 +48,12 @@ const AboutMe: React.FC = () => {
           >
             <p className="text-[--black] mb-6">
               <span className="text-orange">&lt;</span>
-              {language === "DE" ? aboutMeData.title : aboutMeData.title_EN}
+              {language === "FR" ? aboutMeData.title : aboutMeData.title_EN}
               <span className="text-orange">/&gt;</span>
             </p>
 
             <h2 className="text-[--black] text-center max-lg:text-left break-words">
-              {language === "DE"
+              {language === "FR"
                 ? aboutMeData.description
                 : aboutMeData.description_EN}
             </h2>
@@ -97,8 +97,8 @@ const AboutMe: React.FC = () => {
                 <div className="flex flex-row gap-10 max-lg:flex-col">
                   <div className="flex flex-col gap-4 items-center justify-between -mt-10 -mb-10 max-lg:flex-row max-lg:m-0">
                     <p className="text-white">
-                      <span className="text-orange">&lt;</span>h3
-                      <span className="text-orange">/&gt;</span>
+                      <span className="text-orange"></span>
+                      <span className="text-orange"></span>
                     </p>
                     <div className="flex justify-between items-center w-1 h-[100%] max-lg:flex-row max-lg:w-[10rem]  max-lg:bg-lightblue">
                       <div></div>
@@ -106,13 +106,39 @@ const AboutMe: React.FC = () => {
                       <div></div>
                     </div>
                     <p className="text-white">
-                      <span className="text-orange">&lt;</span>h3
-                      <span className="text-orange">/&gt;</span>
+                      <span className="text-orange"></span>
+                      <span className="text-orange"></span>
                     </p>
                   </div>
                   <div>
                     <p className="text-white text-4xl">
-                      {paragraph.description}
+                      {paragraph.title === "Parcours Académique" || paragraph.title === "Academic background" ? (
+                        <>
+                          {paragraph.description}
+                          <br />
+                          <a href="https://www.isga.ma/" target="_blank" className="link">
+                            ISGA(Institut Supérieur d'Ingénierie et des Affaires) Rabat-Morocco
+                          </a>
+                        </>
+                      ) : (
+                        paragraph.title === "Parcours Professionnel" || paragraph.title === "Career paths" ? (
+                          <>
+                            {paragraph.description}
+                            <br />
+                            <a href="https://www.ingecystelecom.com/" target="_blank" className="link">
+                              INGECYS Telecom - Rabat Ray Hiad
+                            </a>
+                          </>
+                        ) : (
+                          <>
+                            {paragraph.description}
+                            <br />
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/QuoamitresorkaletoADOSSI-2158/730F1F121A793929?sharingId=D18AA02016E9341B" target="_blank" className="link">
+                              Azure Data Fundamentals
+                            </a>
+                          </>     
+                        )
+                      )}
                     </p>
                   </div>
                 </div>

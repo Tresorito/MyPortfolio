@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@motionone/utils": "^10.16.3",
     "@types/dotenv": "^8.2.0",
     "axios": "^1.5.1",

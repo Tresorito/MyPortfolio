@@ -112,7 +112,7 @@ const NavBar: React.FC = () => {
                   <span className="text-[--orange] absolute -left-5 top-0">
                     &lt;
                   </span>
-                  {language === "DE" ? link.de : link.en}
+                  {language === "FR" ? link.fr : link.en}
                   {/* {link.de.toLocaleUpperCase()} */}
                 </div>
               ) : (
@@ -122,7 +122,7 @@ const NavBar: React.FC = () => {
                     setTimeOfLastClick(Date.now());
                   }}
                 >
-                  {language === "DE" ? link.de : link.en}
+                  {language === "FR" ? link.fr : link.en}
 
                   {/* {link.de.toLocaleUpperCase()} */}
                 </div>

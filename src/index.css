@@ -29,7 +29,7 @@
   --lightblue: #9daaf2;
   --darkblue: #1a2238;
   --blackblue: #0c1220;
-  --orange: #ff6a3d;
+  --orange: #004AAD;
   --box-shadow-color: inherit;
   --transparent: transparent;
 }
@@ -502,4 +502,14 @@ a {
 .popup-content {
   animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
   -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+.link {
+  color: #007bff; 
+  text-decoration: underline; 
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #0056b3; 
 }

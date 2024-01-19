@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 interface ButtonProps {
@@ -33,22 +32,23 @@ const Button: React.FC<ButtonProps> = ({
     shadow-xl hover:scale-100 hover:-translate-y-2 hover:drop-shadow-xl transition-all duration-200 w-max`,
   };
 
+
   if (elementType === "input") {
     return <input {...commonProps} value={value}></input>;
   } else {
     return (
-      <Link to={link || ""} className="no-underline">
+      <Link to={link || "" } className="no-underline">
         <button {...commonProps}>
-          {IconSVGComponent ? (
-            <IconSVGComponent className={"w-max h-10"} />
-          ) : (
-            <img
-              src={buttoncolor || ""}
-              alt={`${label}-icon`}
-              className={`bg-[${buttoncolor || ""}] w-16 `}
-            />
-          )}
-          {label}
+            {IconSVGComponent ? (
+              <IconSVGComponent className={"w-max h-10"} />
+              ) : (
+                <img
+                src={buttoncolor || ""}
+                alt={`${label}-icon`}
+                className={`bg-[${buttoncolor || ""}] w-16 `}
+                />
+                )}
+            {label}
         </button>
       </Link>
     );
