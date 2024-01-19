@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* FONT IMPORTS */
 @font-face {
   font-family: "poppins-bold";
