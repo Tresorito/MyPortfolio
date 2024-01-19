@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
   const [subject, setSubject] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [cursor, setCursor] = useState<string>("");
-  const [lastUpdatedField, setLastUpdatedField] = useState<string | null>(null);
+  const [, setLastUpdatedField] = useState<string | null>(null);
   const { ref } = useSectionInView("Contact");
   const { language } = useLanguage();
   const { theme } = useTheme();
@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
     setLastUpdatedField(name);
   };
 
-  const [cursorBlink, setCursorBlink] = useState<boolean>(true);
+  const [, setCursorBlink] = useState<boolean>(true);
 
   useEffect(() => {
     const blinkInterval = setInterval(() => {
