@@ -138,7 +138,7 @@ const ProjectSlider: React.FC = () => {
                     </div> */}
                   </div>
 
-                  <div className="right-content relative h-[15rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
+                  <div className="right-content relative h-[17rem] overflow-hidden rounded-xl w-[60%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
