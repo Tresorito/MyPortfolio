@@ -1,4 +1,4 @@
-import bannerBg from "../assets/img/bannerbg.svg";
+import bannerBg from "../assets/img/bannerbg.webp";
 import React, { useRef } from "react";
 import LiveTicker from "./ParallaxText";
 import { projectsData} from "../assets/lib/data";
