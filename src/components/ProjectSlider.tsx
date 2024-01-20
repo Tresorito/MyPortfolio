@@ -196,6 +196,7 @@ const ProjectSlider: React.FC = () => {
                           className="h-[5rem] w-[60%] "
                           data-tooltip-id="my-tooltip"
                           data-tooltip-content={technology.name}
+                          loading="lazy"
                         />
                       )
                     )}

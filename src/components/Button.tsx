@@ -46,6 +46,7 @@ const Button: React.FC<ButtonProps> = ({
                 src={buttoncolor || ""}
                 alt={`${label}-icon`}
                 className={`bg-[${buttoncolor || ""}] w-16 `}
+                loading="lazy"
                 />
                 )}
             {label}
