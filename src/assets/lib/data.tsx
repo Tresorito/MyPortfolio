@@ -265,7 +265,7 @@ export const quotesData = [
 ] as const;
 
 export const aboutMeData = {
-  title: "A propose de moi",
+  title: "A propos de moi",
   title_EN: "About me",
   description: "Mon parcours",
   description_EN: "My background",
