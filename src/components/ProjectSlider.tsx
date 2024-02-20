@@ -54,7 +54,7 @@ const ProjectSlider: React.FC = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="title-container flex flex-col gap-6 mb-24 rotate-3 justify-between items-center max-lg:w-[100vw]">
+          <div className="title-container flex flex-col gap-6 mb-8 rotate-3 justify-between items-center w-full">
             <motion.div
               ref={animationReference}
               style={{
@@ -76,7 +76,7 @@ const ProjectSlider: React.FC = () => {
               effect={"cards"}
               grabCursor={true}
               modules={[EffectCards, Autoplay, Pagination]}
-              className=" w-[60vw] max-lg:hidden min-[1921px]:px-96"
+              className="w-full min-w-[300px] max-w-[90vw] mb-8"
               loop={true}
               autoplay={{
                 delay: 4000,
@@ -138,7 +138,7 @@ const ProjectSlider: React.FC = () => {
                     </div> */}
                   </div>
 
-                  <div className="right-content relative h-[20rem] overflow-hidden rounded-xl w-[60%] transition-all duration-200 shadow-2xl">
+                  <div className="right-content relative h-[31rem] overflow-hidden rounded-xl w-[60%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
