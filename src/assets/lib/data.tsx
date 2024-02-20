@@ -9,8 +9,10 @@ import javaIcon from "../../assets/icons/javaIcon.svg";
 import azureicon from "../../assets/icons/azureicon.svg";
 import scalaicon from "../../assets/icons/scalaicon.svg";
 import ligue1 from "../../assets/img/Ligue 1.webp";
-import bundesliga from "../../assets/img/Bundesliga.webp";
-import liga from "../../assets/img/Liga.webp";
+// import bundesliga from "../../assets/img/Bundesliga.webp";
+// import liga from "../../assets/img/Liga.webp";
+import mammamia1 from "../../assets/img/slide1.webp";
+import mammamia2 from "../../assets/img/slide2.webp";
 import profilepicture from "../img/me21.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -56,21 +58,39 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Palmarès",
+    title: "Projet Mammamia",
     description:
-      "Palmarès des meilleurs clubs Espagnols de 1900-2023",
+      "Analyse des ventes d'une société locale basée à Dakar. Ceci est le premier rapport qui donne l'aperçu des ventes par mois, semaine et avec les difféents KPI",
     description_EN:
-      "Top Spanish clubs from 1900-2023",
+      "Analysis of the sales of a local company based in Dakar. This is the first report that gives an overview of sales by month, week and with different KPIs",
     technologies: [ 
       { name: "Power BI", icon: powerBiicon },
       { name: "Excel", icon: excelicon },
     ],
-    image: liga,
+    image: mammamia1,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Projet Mammamia",
+    description:
+      "Analyse Régionale des ventes d'une société locale basée à Dakar. Ceci est le deuxième rapport qui donne l'aperçu des ventes par Région",
+    description_EN:
+      "Regional sales analysis of a local company based in Dakar. This is the second report that provides the sales overview by Region",
+    technologies: [
+      { name: "Power BI", icon: powerBiicon },
+      { name: "Excel", icon: excelicon },
+    ],
+    image: mammamia2,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
     },
   },
   {
@@ -89,24 +109,6 @@ export const projectsData = [
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Palmarès",
-    description:
-      "Palmarès des meilleurs clubs Allemands de 1900-2023",
-    description_EN:
-      "Top German clubs from 1900-2023",
-    technologies: [
-      { name: "Power BI", icon: powerBiicon },
-      { name: "Excel", icon: excelicon },
-    ],
-    image: bundesliga,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
     },
   },
 ] as const;
