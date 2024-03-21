@@ -27,7 +27,7 @@ export const headerIntroData = {
     fr: "Hi, C'est Trésor",
     en: "Hi, I'm Trésor",
   },
-  subtitle: "Data Engineer - Data Analyst",
+  subtitle: "Data Analyst - Analytics Engineer",
   description: {
     fr: "Je suis Trésor ADOSSI, un spécialiste des données qui peut travailler à la fois sur l'ingénierie et l'analyse des données. Je vous présente ici mon travail et ma passion pour les données. La donnée est une nouvelle mine d'or, exploitons-le ensemble.",
     en: "I'm Trésor ADOSSI, a data specialist who can work on both data engineering and data analysis. Here I present my work and my passion for Data. Data is the new gold, let’s mine it together.",
@@ -286,7 +286,7 @@ export const aboutMeData = {
     },
     {
       title: "Certifications professionnelles",
-      description: "Certified Microsoft Azure DP-900",
+      description: "Certifié Microsoft Azure DP-900 - Certified Microsoft Power BI Data Analyst PL-300",
       icon: travelicon,
     },
   ],
@@ -306,7 +306,7 @@ export const aboutMeData = {
     {
       title: "Professional certifications",
       description:
-        "Certified Microsoft Azure DP-900",
+        "Certified Microsoft Azure DP-900 - Certified Microsoft Power BI Data Analyst PL-300",
       icon: travelicon,
     },
   ],
