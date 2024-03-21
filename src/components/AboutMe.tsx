@@ -136,6 +136,9 @@ const AboutMe: React.FC = () => {
                             <a href="https://learn.microsoft.com/api/credentials/share/en-us/QuoamitresorkaletoADOSSI-2158/730F1F121A793929?sharingId=D18AA02016E9341B" target="_blank" className="link">
                               Azure Data Fundamentals
                             </a>
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/QuoamitresorkaletoADOSSI-2158/B35437343A5E9BB4?sharingId=D18AA02016E9341B" target="_blank" className="link">
+                              Microsoft Certified: Power BI Data Analyst Associate
+                            </a>
                           </>     
                         )
                       )}
