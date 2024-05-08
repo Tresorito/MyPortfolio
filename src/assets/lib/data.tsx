@@ -12,7 +12,7 @@ import scalaicon from "../../assets/icons/scalaicon.svg";
 import ligue1 from "../../assets/img/Ligue 1.webp";
 // import bundesliga from "../../assets/img/Bundesliga.webp";
 // import liga from "../../assets/img/Liga.webp";
-import mammamia1 from "../../assets/img/slide1.webp";
+//import mammamia1 from "../../assets/img/slide1.webp";
 import mammamia2 from "../../assets/img/slide2.webp";
 import fabricProject from "../../assets/img/fabricProject.png"
 import profilepicture from "../img/me21.webp";
