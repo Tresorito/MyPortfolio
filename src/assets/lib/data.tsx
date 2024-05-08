@@ -1,5 +1,6 @@
 import excelicon from "../../assets/icons/excelicon.svg";
 import powerBiicon from "../../assets/icons/powerBiicon.svg";
+import fabricIcon from "../../assets/icons/fabricIcon.svg"
 import sqlicon from "../../assets/icons/sqlicon.svg";
 import sparkicon from "../../assets/icons/sparkicon.svg";
 import pythonicon from "../../assets/icons/pythonicon.svg";
@@ -13,6 +14,7 @@ import ligue1 from "../../assets/img/Ligue 1.webp";
 // import liga from "../../assets/img/Liga.webp";
 import mammamia1 from "../../assets/img/slide1.webp";
 import mammamia2 from "../../assets/img/slide2.webp";
+import fabricProject from "../../assets/img/fabricProject.png"
 import profilepicture from "../img/me21.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -58,16 +60,15 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Projet Mammamia",
+    title: "Analytics Engineering Project",
     description:
-      "Analyse des ventes d'une société locale basée à Dakar. Ceci est le premier rapport qui donne l'aperçu des ventes par mois, semaine et avec les difféents KPI",
+      "Le projet consiste à extraire des données (films) de l'api de TMDB, les transformer et effectuer des analyses",
     description_EN:
-      "Analysis of the sales of a local company based in Dakar. This is the first report that gives an overview of sales by month, week and with different KPIs",
+      "The project consists of extracting data (movies) from the TMDB API, transforming them and performing analyzes",
     technologies: [ 
-      { name: "Power BI", icon: powerBiicon },
-      { name: "Excel", icon: excelicon },
+      { name: "Microsoft fabric", icon: fabricIcon },
     ],
-    image: mammamia1,
+    image: fabricProject,
     colors: {
       main: "main-btn",
       second: "secondary-btn",
@@ -193,6 +194,12 @@ export const skillsDataDesign = [
         icon: excelicon, 
         color: "#2d6a4f"
        },
+       {
+        title: "Fabric", 
+        hash: "#Fabric", 
+        icon: fabricIcon, 
+        color: "#2d6a4f"
+       }
     ],
   },
 ] as const;
@@ -281,12 +288,12 @@ export const aboutMeData = {
     {
       title: "Parcours Professionnel",
       description:
-        `Développeur Web Angular/Spring Boot`,
+        `Data Engineer & BI Developer, Mauna Kea Consulting`,
       icon: caricon,
     },
     {
       title: "Certifications professionnelles",
-      description: "Certifié Microsoft Azure DP-900 - Certified Microsoft Power BI Data Analyst PL-300",
+      description: "",
       icon: travelicon,
     },
   ],
@@ -300,13 +307,13 @@ export const aboutMeData = {
     {
       title: "Career paths",
       description:
-        `Web developer Angular/Spring Boot`,
+        `Data Engineer & BI Developer, Mauna Kea Consulting`,
       icon: caricon,
     },
     {
       title: "Professional certifications",
       description:
-        "Certified Microsoft Azure DP-900 - Certified Microsoft Power BI Data Analyst PL-300",
+        "",
       icon: travelicon,
     },
   ],

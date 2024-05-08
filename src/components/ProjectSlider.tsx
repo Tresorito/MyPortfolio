@@ -138,12 +138,11 @@ const ProjectSlider: React.FC = () => {
                     </div> */}
                   </div>
 
-                  <div className="right-content relative h-[20rem] overflow-hidden rounded-xl w-[60%] transition-all duration-200 shadow-2xl">
+                  <div className="right-content relative h-[38rem] overflow-hidden rounded-xl w-[60%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
-                      className={`w-full h-auto
-                      `}
+                      className={`w-full h-auto`}
                     />
                   </div>
                 </SwiperSlide>

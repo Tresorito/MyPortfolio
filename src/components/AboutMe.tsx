@@ -125,13 +125,17 @@ const AboutMe: React.FC = () => {
                           <>
                             {paragraph.description}
                             <br />
-                            <a href="https://www.ingecystelecom.com/" target="_blank" className="link">
-                              INGECYS Telecom - Rabat Ray Hiad
+                            <a href="https://www.linkedin.com/company/mauna-kea-consulting-uk/mycompany/?viewAsMember=true" target="_blank" className="link">
+                              Mauna Kea Consulting LinkedIn
                             </a>
                           </>
                         ) : (
                           <>
                             {paragraph.description}
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/QuoamitresorkaletoADOSSI-2158/D41EE25637E5E015?sharingId=D18AA02016E9341B" target="_blank" className="link">
+                              Microsoft Certified: Fabric Analytics Engineer Associate
+                            </a>
+                            <br />
                             <br />
                             <a href="https://learn.microsoft.com/api/credentials/share/en-us/QuoamitresorkaletoADOSSI-2158/730F1F121A793929?sharingId=D18AA02016E9341B" target="_blank" className="link">
                               Azure Data Fundamentals
